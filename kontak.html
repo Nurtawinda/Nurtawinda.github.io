@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kontak</title>
+	<!-- css -->
+	<link rel="stylesheet" href="asssets/styles/Style.css">
+
+	<!--google font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<a href="dashboard.html">Dashboard</a>
+        <a href="biodata.html">Biodata</a>
+        <a class="active" href="kontak.html">Kontak</a>
+        <a href="halLogin.html">Log Out</a>
+    </nav>
+	<form>
+		<input type="text" name="Nama" id="nama" placeholder="Nama" required>
+		<input type="email" name="email" id="email" placeholder="E-Mail" required>
+		<input type="text" name="Pesan" id="pesan" placeholder="Pesan" required>
+		<input type="submit" onclick="kirim()" name="submit">
+		
+	</form>
+	<footer>Copyright &copy; NURTAWINDA</footer>
+</body>
+</html>
+
+<script type="text/javascript">
+	function kirim(){
+		window.alert("Pesan Telah Berhasil Dikirim!");
+	}
+</script>

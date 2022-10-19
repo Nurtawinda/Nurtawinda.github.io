@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+header {
+   display: inline;
+   height: 10px;
+}
+
+nav a {
+   font-size: 18px;
+   font-weight: 300;
+   text-decoration: none;
+   color: #000000;
+}
+
+nav a:hover {
+   font-weight:bold;
+}
+
+.jumbotron {
+   font-size: 10px;
+   padding: 17px;
+   background-color: #DFBB9D;
+   text-align: center;
+   color: #000000;
+}
+.opening{
+   font-size: 15px;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 10px;
+}
+img{
+   padding: 5px;
+   border-image-width: auto;
+   width: 100px;
+}
+nav {
+   background-color: #F7E2D6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+body{
+   font-family: 'Bitter', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(154, 145, 236, 0.699);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   width: 100%;
+}
+.carda {
+   box-shadow: 0 4px 8px 0 rgba(154, 145, 236, 0.699);
+   border-radius: 5px;
+   padding: 10px;
+   margin-top: 20px;
+   width: 133%;
+   
+}
+.carda p{
+   text-align: justify;
+}
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+h2, h3 {
+   color: #A084CF;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+.profile header, section{
+   text-align: center;
+}
+
+
+.profile img {
+   width: 200px;
+}
+
+footer {
+   padding: 5px;
+   color: #000000;
+   background-color: #9DD6DF;
+   text-align: center;
+   font-weight: bolder;
+}
+
+@media screen and (max-widht: 1000px){
+   #content, 
+   aside {
+      width: 100%;
+      padding: 0;
+      margin:0;
+   }
+}

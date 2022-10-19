@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    /*background-image: url('asssets/image/bg.jpg');*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://th.bing.com/th/id/R.38635bedabfc3725669b71b2428c6802?rik=l2Q%2fCenAS4pviw&riu=http%3a%2f%2f4.bp.blogspot.com%2f-w8DFFjZv8ZE%2fU8TdPP3V2TI%2fAAAAAAAAAs8%2fVM52H3ysjjw%2fs1600%2fWallpaper%2bPemandangan%2bAlam.jpg&ehk=Z2gGMdlcm9GzQ2XYwJwUKVgBkTN4ReWXsKa0rV8c2Ng%3d&risl=&pid=ImgRaw&r=0');
+}
+.welcome{
+    margin-top: 80px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.login-box{
+    margin-top: 80px;
+    flex-basis: 300px;
+    background: transparent;
+    padding: 20px;
+}
+.login-box h2{
+    border-bottom: 1px solid #ccc;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+    
+}
+input, select{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+input[type=submit]{
+    background-color: #038ade;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* css dashboar */
+header{
+    background: #038ade;
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+aside{
+    flex: 25%;
+    background: #222;
+}
+section.main{
+    flex: 75%;
+    background: #fff;
+    min-height: 530px;
+    padding: 15px 20px;
+}footer{
+    background: #ccc;
+    color: #555;
+    padding: 20px;
+    text-align: center
+}
+@media (max-width: 700px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
+.myPhoto{
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px grey;
+}
+nav{
+    background-color: #252525;
+    padding: 20px;
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+nav a{
+    text-decoration: none;
+    color: #C0C0C0;
+    margin-right: 30px;
+}
+nav a:hover{
+    color: white;
+}
+footer{
+    padding-top: 7px;
+    width: 100vw;
+    height: 45px;
+    position: fixed;
+    bottom: 0;
+}
+
+/*Kontak*/
+form{
+    margin-top: 80px;
+    width: 500px;
+    position: absolute;
+    margin-left: -250px;
+    left: 50%;
+}
+nav .active{
+    color: white;
+    background-color: grey;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 3px;
+}
+form .button{
+    background-color: grey;
+    border:none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
